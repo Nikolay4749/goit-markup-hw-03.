@@ -1,0 +1,375 @@
+:root {
+  --accent-color: #2196f3;
+  --text-primary: #757575;
+  --text-title: #212121;
+  --primary-white-color: #ffffff;
+
+  --primary-font: 'Roboto';
+  --secondary-font: 'Raleway';
+}
+
+body {
+  color: var(--text-title);
+  background-color: var(--primary-white-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ======= Heaeder style start here ======= */
+
+.logo {
+  color: var(--text-title);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+/* main-nav */
+.container {
+  outline: 2px solid tomato;
+}
+
+.main-nav {
+  display: flex;
+}
+.nav-box {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--text-title);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+.contakts-box {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contakts-item:not(:last-child) {
+  margin-right: 50px;
+  display: flex;
+}
+
+.header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+
+  color: var(--text-primary);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.contakts-link:focus {
+  color: var(--accent-color);
+}
+/* ======= Heaeder style end here ======= */
+
+/* Button filtr */
+.filter-button {
+  display: inline-block;
+  display: flex;
+  border: transparent;
+  outline: 2px solid tomato;
+}
+
+/* ======= Hero style start here ======= */
+
+.main-hero {
+  tex-alitgn: center;
+}
+
+.hero-title {
+  padding-top: 200px;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.button {
+  cursor: pointer;
+  text-align: center;
+  font-family: inherit;
+}
+.hero 
+
+   
+  /* .button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em; */
+}
+
+button {
+  cursor: pointer;
+}
+/* ======= Hero style end here ======= */
+/* ======= feauture style start here ======= */
+.section-feature {
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+.feature-title {
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.content-feature {
+  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* ======= feauture style end here ======= */
+
+/* ==== What are we doing style start here ==== */
+.subtitle {
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ==== What are we doing style end here ====*/
+
+/* ===== Our team style start here ===== */
+.our-team-section {
+  background-color: #f5f4fa;
+}
+
+.member-team {
+  color: var(--text-title);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-position {
+  color: var(--text-primary);
+
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ===== Our team style end here ===== */
+
+/* ===== Footer style start here ===== */
+.footer {
+  background: #2f303a;
+}
+
+.location {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.location:hover,
+.location:focus {
+  color: var(--accent-color);
+}
+
+/* ===== Footer style end here ===== */
+
+/* =*=*=*= Portfolio =*=*=*= */
+
+/* ===== Filter-button style start here ===== */
+
+.filter-button {
+  color: var(--text-title);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--accent-color);
+}
+
+/* ===== Filter-button style end here ===== */
+
+/* ===== product-examples style start here ===== */
+
+.product-examples {
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.link {
+  color: var(--text-title);
+
+  font-family: inherit;
+}
+.project-title {
+  color: var(--text-title);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/* ===== product-examples style end here ===== */
+
+/* ===== branch style start here ===== */
+.branch {
+  color: var(--text-primary);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* ===== branch style end here ===== */
