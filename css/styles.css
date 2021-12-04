@@ -25,6 +25,7 @@ h6,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 
 ul,
@@ -44,6 +45,15 @@ a {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ======= Heaeder style start here ======= */
 header {
   border-bottom: 1px solid #ececec;
@@ -61,7 +71,9 @@ header {
 .logo-accent {
   color: var(--accent-color);
 }
+
 /* main-nav */
+
 .container {
   outline: 2px solid tomato;
 }
@@ -191,18 +203,17 @@ button {
 }
 /* ======= Hero style end here ======= */
 /* ======= feauture style start here ======= */
-.feature {
+.feature-list {
   display: flex;
 }
-
-.section-feature {
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
+.feature-item:not(:last-child) {
+  margin-right: 30px;
+  max-width: 270px;
 }
 
 .feature-title {
+  margin-bottom: 10px;
+
   color: var(--text-title);
 
   font-weight: 700;
@@ -212,7 +223,7 @@ button {
   text-transform: uppercase;
 }
 
-.content-feature {
+.feature-content {
   color: var(--text-primary);
   font-weight: 400;
   font-size: 14px;
