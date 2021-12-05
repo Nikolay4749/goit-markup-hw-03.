@@ -49,15 +49,18 @@
     <!-- Заголовок -->
 
     <main class="hero">
-      <section class="main-hero">
-        <h1 class="hero-title">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button type="button" class="button">Заказать услугу</button>
+      <section class="section main-hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button type="button" class="button">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- Наши преимущества -->
+
       <section class="section">
         <div class="container">
           <h2 hidden>Наши преимушества</h2>
@@ -97,66 +100,99 @@
           <h2 class="work-examples-title">Чем мы занимаемся</h2>
           <ul class="work-examples">
             <li class="work-examples-item">
-              <img src="./images/box1.jpg" alt="ноутбук на рабочем столе" width="370" />
+              <img
+                src="./images/box1.jpg"
+                alt="ноутбук на рабочем столе"
+                class="image-work"
+                width="370"
+              />
             </li>
             <li class="work-examples-item">
               <img
                 src="./images/box2.jpg"
                 alt="человек держит смартфон и работает на ноутбуке"
+                class="image-work"
                 width="370"
               />
             </li>
             <li class="work-examples-item">
-              <img src="./images/box3.jpg" alt="планшет в руках человека" width="370" />
+              <img
+                src="./images/box3.jpg"
+                alt="планшет в руках человека"
+                class="image-work"
+                width="370"
+              />
             </li>
           </ul>
         </div>
       </section>
+
       <!-- Фото команды -->
-      <section class="section">
+
+      <section class="section our-team-section">
         <div class="container">
-          <section class="our-team-section">
-            <h2 class="member-title">Наша команда</h2>
-            <ul class="member-list">
-              <li>
-                <img src="./images/igor.jpg" alt="член команды" class="image-member" width="270" />
-                <h3 class="member-team">Игорь Демьянченко</h3>
-                <p class="member-position" lang="en">Product Designer</p>
-              </li>
-              <li>
-                <img src="./images/olga.jpg" alt="член команды" class="image-member" width="270" />
-                <h3 class="member-team">Ольга Репина</h3>
-                <p class="member-position" lang="en">Frontend Developer</p>
-              </li>
+          <h2 class="member-title">Наша команда</h2>
+          <ul class="member-list">
+            <li class="member-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/igor.jpg" alt="член команды" class="image-member" width="270" />
+                </div>
+              
+                <div class="card-content">
+                  <h3 class="member-team">Игорь Демьянченко</h3>
+                  <p class="member-position" lang="en">Product Designer</p>
+                </div>
+              </article>
+            </li>
 
-              <li>
-                <img
-                  src="./images/nikolay.jpg"
-                  alt="член команды"
-                  class="image-member"
-                  width="270"
-                />
-                <h3 class="member-team">Николай Тарасов</h3>
-                <p class="member-position" lang="en">Marketing</p>
-              </li>
+            
+            <li class="member-item">
+             <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/olga.jpg" alt="член команды" class="image-member" width="270" />
+                </div>
 
-              <li>
-                <img
-                  src="./images/mikhail.jpg"
-                  alt="член команды"
-                  class="image-member"
-                  width="270"
-                />
-                <h3 class="member-team">Михаил Ермаков</h3>
-                <p class="member-position" lang="en">UI Designer</p>
-              </li>
-            </ul>
-          </section>
+                <div class="card-content">
+                  <h3 class="member-team">Ольга Репина</h3>
+                  <p class="member-position" lang="en">Frontend Developer</p>
+                </div>
+             </article>
+            </li>
+
+             <li class="member-item">
+                <article class="card">
+                    <div class="card-thumb">
+                      <img src="./images/nikolay.jpg" alt="член команды" class="image-member" width="270" />
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="member-team">Николай Тарасов</h3>
+                      <p class="member-position" lang="en">Marketing</p>
+                    </div>
+                </article>
+            </li>
+
+             <li class="member-item">
+                <article class="card">
+                    <div class="card-thumb">
+                     <img src="./images/mikhail.jpg" alt="член команды" class="image-member" width="270" />
+                    </div>
+
+                    <div class="card-content">
+                      <h3 class="member-team">Михаил Ермаков</h3>
+                      <p class="member-position" lang="en">UI Designer</p>
+                    </div>
+                </article>
+            </li> 
+          </ul>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
+   <section class="section footer"">
+      <div class="container">
+      <footer>
       <a href="#" class="logo-footer"><span class="logo-accent">Web</span>Studio</a>
       <address>
         <ul>
@@ -172,5 +208,7 @@
         </ul>
       </address>
     </footer>
+    </div>
+   </section>
   </body>
 </html>
