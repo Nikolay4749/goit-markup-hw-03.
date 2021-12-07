@@ -152,19 +152,20 @@ header {
 }
 
 /* ======= Hero style start here ======= */
+
 button {
   cursor: pointer;
 }
 
 .main-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
   text-align: center;
 
   background-color: #2f303a;
 }
 
 .hero-title {
+  margin-top: 0;
   margin-bottom: 30px;
 
   color: var(--primary-white-color);
@@ -181,6 +182,7 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 50px;
   min-width: 200px;
   border: transparent;
   border-radius: 4px;
@@ -202,9 +204,16 @@ button {
 /* ======= Hero style end here ======= */
 
 /* ======= feauture style start here ======= */
+.feature {
+  padding: 0;
+}
+
 .feature-list {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .feature-item:not(:last-child) {
   margin-right: 30px;
   max-width: 270px;
@@ -234,6 +243,10 @@ button {
 /* ======= feauture style end here ======= */
 
 /* ==== What are we doing style start here ==== */
+.work-list {
+  padding: 0;
+}
+
 .work-examples-title {
   margin-bottom: 50px;
 
@@ -254,6 +267,7 @@ button {
 
 .work-examples {
   display: flex;
+  padding-bottom: 94px;
 }
 
 .work-examples-item:not(:last-child) {
@@ -347,8 +361,13 @@ button {
   background: #2f303a;
 }
 
-.address-box {
+.address {
+  padding: 0;
+}
+
+.footer-box {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer-list {
