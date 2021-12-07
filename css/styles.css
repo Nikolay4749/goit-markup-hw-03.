@@ -145,12 +145,6 @@ header {
 }
 /* ======= Heaeder style end here ======= */
 
-/* Button filtr */
-.filter-button {
-  display: flex;
-  border: transparent;
-}
-
 /* ======= Hero style start here ======= */
 
 button {
@@ -427,6 +421,14 @@ button {
 /* =*=*=*= Portfolio =*=*=*= */
 
 /* ===== Filter-button style start here ===== */
+.button-list {
+  padding: 0;
+}
+
+.filter-button {
+  display: flex;
+  border: transparent;
+}
 
 .filter-button {
   color: var(--text-title);
@@ -444,9 +446,15 @@ button {
   color: var(--accent-color);
 }
 
+.button-filter.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .button-list-filter {
   display: flex;
   justify-content: center;
+  margin: 94px 0 50px;
 }
 
 .button-item:not(:last-child) {
@@ -460,7 +468,8 @@ button {
 
   background: #f5f4fa;
 
-  border: transparent;
+  border: none;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -514,6 +523,8 @@ button {
 }
 
 .product-examples {
+  padding-top: 0;
+
   color: var(--text-title);
 
   font-weight: 700;
